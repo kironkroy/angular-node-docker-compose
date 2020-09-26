@@ -1,4 +1,4 @@
-FROM node:6
+FROM node
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY /angular/package.json /usr/src/app
